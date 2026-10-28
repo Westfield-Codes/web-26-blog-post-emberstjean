@@ -4227,7 +4227,14 @@ textarea.form-control-lg {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   margin-bottom: 0;
   color: white;
-  background-color:#880000;
+background: linear-gradient(
+  to bottom,
+  #550000,
+  #880000,
+  #880000,
+  #880000,
+  #550000
+);
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 .card-header:first-child {
